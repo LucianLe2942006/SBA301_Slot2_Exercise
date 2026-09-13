@@ -2,7 +2,7 @@ import ArchitectureFlow from "./components/ArchitectureFlow";
 import CourseHeader from "./components/CourseHeader";
 import EnvironmentStatus from "./components/EnvironmentStatus";
 import Footer from "./components/Footer";
-import LearningChecklist from "./components/LearningChecklist";
+import LearningChecklist from "./components/LearningCheckList";
 import ProjectSummary from "./components/ProjectSummary";
 import StudentProfile from "./components/StudentProfile";
 
