@@ -2,16 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f4f6f8;
-  color: #1f2937;
-}
-* {
-  box-sizing: border-box;
-}
-
 :root {
   font-family: Inter, Arial, Helvetica, sans-serif;
   color: #1f2937;
@@ -45,7 +35,8 @@ body {
 
 .course-name {
   margin: 8px auto 0;
-  max-width: 760px; }
+  max-width: 760px;
+}
 
 .dashboard {
   width: min(1100px, 92%);
@@ -102,7 +93,8 @@ body {
 }
 
 .ready {
-  background: #dcfce7; color: #166534;
+  background: #dcfce7;
+  color: #166534;
 }
 
 .pending {
@@ -139,7 +131,6 @@ body {
   .dashboard {
     grid-template-columns: 1fr;
   }
-
   .architecture-card {
     grid-column: auto;
   }
