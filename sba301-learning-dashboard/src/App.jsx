@@ -7,19 +7,21 @@ import ProjectSummary from "./components/ProjectSummary";
 import StudentProfile from "./components/StudentProfile";
 
 function App() {
-  return (
-    <>
-      <CourseHeader />
-      <main className="dashboard">
-        <StudentProfile />
-        <EnvironmentStatus />
-        <LearningChecklist />
-        <ProjectSummary />
-        <ArchitectureFlow />
-      </main>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <CourseHeader/>
+
+            <main className="dashboard">
+                <StudentProfile/>
+                <EnvironmentStatus/>
+                <LearningChecklist/>
+                <ProjectSummary/>
+                <ArchitectureFlow/>
+            </main>
+
+            <Footer/>
+        </>
+    );
 }
 
 export default App;

@@ -93,8 +93,7 @@ body {
 }
 
 .ready {
-  background: #dcfce7;
-  color: #166534;
+  background: #dcfce7; color: #166534;
 }
 
 .pending {
@@ -131,6 +130,7 @@ body {
   .dashboard {
     grid-template-columns: 1fr;
   }
+
   .architecture-card {
     grid-column: auto;
   }
